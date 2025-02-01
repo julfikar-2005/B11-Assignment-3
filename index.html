@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="tailwind.config.js">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awesome cdn -->
     <script src="https://kit.fontawesome.com/c998c38e88.js" crossorigin="anonymous"></script>
+    
+    <style>
+        .sora-font {
+  font-family: "Sora", serif;
+}
+    </style>
 </head>
 
-<body>
+<body class="sora-font">
     <header class="bg-gradient-to-t from-[#EFEBE3] to-white mb-20 lg:mb-36">
         <nav
             class="p-4 relative  md:after:hidden  after:w-full after:h-[2px] after:bg-green-600 after:absolute after:bottom-0 after:left-0">
@@ -248,6 +255,48 @@
             </div>
         </section>
     </main>
+
+    <footer class="relative -mt-80">
+        <section class="relative  mx-2 top-80  mb-24 bg-[#EFEBE3] lg:w-[1320px] lg:mx-auto rounded-3xl">
+            <div class="grid items-center  text-center py-16 md:grid-cols-2 md:text-left lg:text-left lg:flex lg:justify-around">
+                <div>
+                    <img src="./c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-4xl font-semibold mb-5">Get Grocery News!</h1>
+                    <p>Exclusive training tips, ticks, product <br>
+                        deals and more.</p>
+                    <input class="p-5 bg-white rounded-xl my-4 lg:my-8" type=" text" placeholder="Enter email...."> <br>
+                    <button class="px-8 py-3 bg-green-600 text-white font-semibold rounded-lg">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-green-600  h-[730px]  lg:h-[660px]">
+            <div class="grid ml-6 grid-cols-1 lg:flex justify-around space-y-6 relative top-96">
+                <div>
+                    <img src="./c2-assets/logo-footer.png" alt="">
+                    <p class="text-gray-200">Discover a world of treats, toys, and <br>essentials handpicked for your furry <br> friends</p>
+                </div>
+                <div>
+                    <ul class="text-white">
+                        <li>Product</li>
+                        <li>Services</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="  text-white">
+                    <h3 class="mb-2">Follow Us</h3>
+                   <div class="space-x-4 text-2xl">
+                    <i class="fa-brands fa-facebook text-white"></i>
+                    <i class="fa-brands fa-instagram text-white"></i>
+                    <i class="fa-brands fa-twitter text-white"></i>
+                   </div>
+                   
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
