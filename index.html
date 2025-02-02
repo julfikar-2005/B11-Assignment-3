@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fresh Food</title>
     <link rel="stylesheet" href="tailwind.config.js">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -55,7 +55,7 @@
                     to pantry <br> staples, we’ve got you covered every day!</p>
             </div>
             <div>
-                <img src="./c2-assets/hero-vegetables.png" alt="">
+                <img class="animate-pulse" src="./c2-assets/hero-vegetables.png" alt="">
             </div>
         </div>
     </header>
@@ -254,6 +254,50 @@
 
             </div>
         </section>
+        <section class="my-24  lg:w-[1320px] mx-auto lg:mb-36">
+            <h1 class="text-5xl text-center font-semibold mb-12">Fresh Item</h1>
+            <!-- card -->
+            <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+              <!-- card 1 -->
+              <div class="card card-compact bg-base-100 shadow-xl">
+                <figure>
+                  <img class="w-3/4 bg-slate-400 rounded-xl" src="./c2-assets/vegetable-busket.png" alt="Shoes" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title text-4xl">Fruits</h2>
+                  <p>Fresh fruits are nutritious, delicious, hydrating, and essential for good health.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-green-600 text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-compact bg-base-100 shadow-xl">
+                <figure>
+                  <img class="w-3/4 bg-slate-400 rounded-xl" src="./c2-assets/vegetable-busket.png" alt="Shoes" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title text-4xl">Meat</h2>
+                  <p>Fresh meat is protein-rich, nutritious, flavorful, and essential for muscle growth.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-green-600 text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-compact bg-base-100 shadow-xl">
+                <figure>
+                  <img class="w-3/4 bg-slate-400 rounded-xl" src="./c2-assets/vegetable-busket.png" alt="Shoes" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title text-4xl">Fish</h2>
+                  <p>Fresh fish is nutritious, protein-rich, delicious, and essential for a healthy diet.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-green-600 text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </section>
     </main>
 
     <footer class="relative -mt-80">
